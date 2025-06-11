@@ -488,8 +488,8 @@
     line-height: 1.6rem;
   }
   .product-section {
-    margin-top: 3rem;
     position: relative;
+    margin-top: 3rem;
     padding: 2rem 0;
   }
   .product-section::before {
@@ -523,7 +523,7 @@
   .product-wrap .product-right .card {
     flex-basis: calc(50% - 1rem);
     height: 154px;
-    padding: 3rem 2rem 2rem, 2.6rem;
+    padding: 3rem 2rem 2rem 2.6rem;
     transition: none;
   }
   .product-wrap .product-right .card img {
@@ -535,40 +535,41 @@
     height: 80px;
     object-fit: contain;
   }
-
   /* 사이드 배너 모바일 */
-  .side-banner-mb {
-    display: block;
+  .side-banner-wrap-mb {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
   }
-  .side-banner-mb .side-banner {
+  .side-banner-wrap-mb .side-banner {
     position: relative;
     width: 100%;
     min-height: 140px;
     padding: 3.1rem 2.4rem 3.2rem;
     border-radius: 2rem;
   }
-  .side-banner-mb .side-banner a {
+  .side-banner-wrap-mb .side-banner a {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .side-banner-mb .side-banner a .text {
+  .side-banner-wrap-mb .side-banner a .text {
     position: relative;
   }
-  .side-banner-mb .side-banner a .text h5 {
+  .side-banner-wrap-mb .side-banner a .text h5 {
     font-family: "SS-bold";
     font-size: 1.8rem;
     line-height: 2.4rem;
   }
-  .side-banner-mb .side-banner a .text p {
+  .side-banner-wrap-mb .side-banner a .text p {
     font-size: 1.6rem;
     line-height: 2rem;
     color: #727780;
     margin-top: 0.8rem;
   }
-  .side-banner-mb .side-banner a img {
+  .side-banner-wrap-mb .side-banner a img {
     position: absolute;
     right: 0;
     top: 50%;
@@ -577,7 +578,6 @@
     height: 140px;
     object-fit: contain;
   }
-
   /* 알려드려요 고객지원 영역 */
   .notice-customer-section {
     margin-top: 4rem;

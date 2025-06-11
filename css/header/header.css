@@ -170,10 +170,12 @@
 }
 .etc-menu ul li a img {
 }
-
 @media screen and (max-width: 1219px) {
+  .header {
+    height: 54px;
+  }
   .header-top,
-  gnb,
+  .gnb,
   .etc-menu ul li:first-child {
     display: none;
   }
