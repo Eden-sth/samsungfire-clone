@@ -93,3 +93,9 @@
     height: 200px;
   }
 }
+@media screen and (max-width: 1218) {
+  .sw-banner-section {
+    /* display: none; */
+    display: hidden;
+  }
+}
